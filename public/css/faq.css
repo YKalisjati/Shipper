@@ -1,0 +1,161 @@
+* {box-sizing: border-box}
+        
+        /* Style the tab */
+        .tab {
+        float: left;
+        border-right: 1px solid rgb(238, 238, 238);
+        background-color: #ffffff;
+        width: 25%;
+        height: 500px;
+        }
+        
+        /* Style the buttons inside the tab */
+        .tab button {
+        display: block;
+        background-color: inherit;
+        color: black;
+        padding: 10px 16px;
+        width: 100%;
+        border: none;
+        outline: none;
+        text-align: left;
+        cursor: pointer;
+        transition: 0.3s;
+        font-size: 14px;
+        }
+
+        /* Style the tab content */
+        .tabcontent {
+        float: left;
+        padding: 0px 12px;
+        width: 75%;
+        border-left: none;
+        }
+    
+
+    
+      .footer {
+        overflow: hidden;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+      }
+
+
+.gambar {
+width: 100%;
+height:40%;
+}
+
+.icon {
+width: 40%;
+height:40%;
+}
+
+.no {
+  margin-left: 30%;
+}
+
+.yes {
+  margin-left: 20%;
+}
+
+.yes-img {
+  margin-left: 10%;
+}
+
+.no-img {
+  margin-left: 20%;
+}
+
+.accordion {
+  margin: auto;
+  width: 100%;
+  padding-top: 10px;
+}
+.accordion input {
+  display: none;
+}
+.box {
+  position: relative;
+  background: white;
+  height: 45px;
+  transition: all .15s ease-in-out;
+}
+.box::before {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  pointer-events: none;
+  box-shadow: 0 -1px 0 #e5e5e5,0 0 2px rgba(0,0,0,.12),0 2px 4px rgba(0,0,0,.24);
+}
+header.box {
+  background: #C60751;
+  z-index: 100;
+  cursor: initial;
+}
+header .box-title {
+  font-size: 16pt;
+  color: white;
+  cursor: initial;
+}
+.box-title {
+  height: 45px;
+  line-height: 45px;
+  padding: 0 20px;
+  text-align:left;
+  display: inline-block;
+  cursor: pointer;
+}
+.box-content {
+  width: calc(100% - 40px);
+  padding: 30px 20px;
+  font-size: 11pt;
+  color: rgba(0,0,0,.54);
+  display: none;
+}
+.box-close {
+  position: absolute;
+  height: 64px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  display: none;
+}
+input:checked + .box {
+  height: auto;
+  margin: 16px 0;
+}
+input:checked + .box .box-title {
+  border-bottom: 1px solid rgba(0,0,0,.18);
+}
+input:checked + .box .box-content,
+input:checked + .box .box-close {
+  display: inline-block;
+}
+.arrows section .box-title {
+  padding-left: 44px;
+  width: calc(100% - 64px);
+}
+.arrows section .box-title:before {
+  position: absolute;
+  display: block;
+  content: '\203a';
+  font-size: 18pt;
+  left: 20px;
+  top: -2px;
+  transition: transform .15s ease-in-out;
+  color: rgba(0,0,0,.54);
+}
+input:checked + section.box .box-title:before {
+  transform: rotate(90deg);
+}
+
+.sizeTextAlink{
+  font-size:50Px;
+}

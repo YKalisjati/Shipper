@@ -1,0 +1,275 @@
+input {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+.col-sm-8 {
+    padding-top:5px;
+}
+
+.col-sm-4 {
+    padding-top:5px;
+}
+
+.bantuan {
+    flex-flow : row wrap;
+    height : 15%;
+    width : 100%;
+    justify-content:center;
+    padding : 1%;
+    gap : 2%;
+}
+
+.bantuan2 {
+    flex-flow : row wrap;
+    height : 15%;
+    width : 100%;
+    justify-content:center;
+    padding : 1%;
+    gap : 2%;
+}
+.col-jasa {
+    display:grid;
+    justify-self:center;
+}
+/* img {
+    padding-top: 10px;
+} */
+
+/* .card-img-top {
+    width: 140px;
+    height: 140px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+.card-img-2 {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-link .waves-light{
+    font-size: 14px;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+/* .rounded-circler.profil{
+  padding-left: 10px;
+  padding-top: 20px;
+  width: 230px;
+  height: 230px;
+} */
+
+.batal-btn {
+border: 1px solid #f80606;
+width: 262px;
+height: 50px;
+font-size: 18px;
+color: #f80606;
+margin-bottom: 14px; 
+}
+
+.batal-btn:hover {
+  border: 1px solid #f80b0b;
+  color: #f80606; 
+}
+
+.btn-dangerTest {
+background-color : #b80808;
+width: 262px;
+height: 50px;
+font-size: 18px;
+color: #fff;
+margin-bottom: 14px; 
+}
+
+.btn-dangerTest:hover {
+  border: 1px solid #f80b0b;
+  background-color: #f80b0b;
+  color: #fff; 
+}
+
+label{
+  padding-top: 10px;
+  font-size: 14px;
+  color: dimgray;
+
+}
+
+.scroll{
+    display:block;
+    padding:5px;
+    overflow:scroll;
+    border-radius: 8px;
+    padding: 25px;
+    cursor: pointer;
+}
+
+.tablinks {
+  font-family: Arial;
+  background-color: #fff;
+  border: 0px;
+  font-weight: bold;
+  padding: 11px 9px;
+  font-size: 15px;
+}
+
+.tablinks {
+  font-weight: bold;
+  font-size: 16px;
+  color: #000;
+  position: relative;
+  text-decoration: none;
+  padding-bottom: 8px;
+}
+.tablinks:before, .tablinks:after {
+  content: '';
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #F37272;
+}
+.tablinks:before {
+  opacity: 0;
+  transform: translateY(-8px);
+  transition: transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s;
+}
+.tablinks:after {
+  content: '';
+  position: absolute;
+  opacity: 0;
+  transform: translateY(4px); 
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
+  position: absolute;
+  text-decoration: 1px solid #F37272;
+}
+
+.tab button.active span.bgClr{
+  background-color: #f23b3b;
+  color: white;
+  border-radius: 25px;
+  padding: 5px;
+}
+
+.tablinks:hover:before, a:hover:after, a:focus:before, a:focus:after {
+  opacity: 1;
+  transform: translateY(0);
+}
+.tablinks:hover:before, a:focus:before {
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
+}
+.tablinks1:hover:after, a:focus:after {
+  transition: transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s 0.2s;
+}
+
+.tablinks2 {
+  font-family: Arial;
+  background-color: white;
+  border: 1px solid #f23b3b;
+  font-weight: bolder;
+  padding: 11px 9px;
+  font-size: 13px;
+  border-radius: 30px;
+  color: #f23b3b;
+}
+
+.tab1 button.active{
+  background-color: #f23b3b;
+  color: white;
+  padding: 11px 9px;
+  font-size: 13px;
+  border-radius: 30px;
+}
+
+.btn-dark {
+    padding: 11px;
+    background-color: #333;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 20px; }
+    .btn-dark:hover {
+      border: 1px solid #fff;
+      background-color: #000;
+      color: #fff; 
+  }
+
+   .pertama {
+      left: 70px;
+      background-color: rgb(250, 245, 245);
+  }
+
+  .kedua{
+      background-color: #eaeff7;
+      color: #2470dc;
+      font-size: 15px;
+  }
+
+  textarea {
+  border: 2px solid #ccc;
+  background-color: white;
+  }
+
+  .input_kode{
+    background-color: #ccc;
+  }
+
+  .text-bottom{
+  font-weight: bold;
+  text-decoration: none;
+  }
+
+  .btn.btn-unggah.btn-dark {
+    width: 120px;
+    height: 42px;
+    font-size: 14px;
+    border-radius: 4px; 
+  }
+
+  .btn.btn-outline-dark {
+    width: 120px;
+    height: 42px;
+  }
+
+  .nama-user{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 2px;
+    font-size: 16px;
+  }
+
+  /* .img-title{
+    padding-top: 0px;
+  } */
+
+  .col.btn-hapus{
+    padding-top: 20px;
+  }
+
+  .col-sm-4.gambarProfil{
+    padding-top: 30px;
+    padding-left: 40px;
+  }

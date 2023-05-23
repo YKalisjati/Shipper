@@ -1,0 +1,116 @@
+
+  body {
+    font-family: 'Helvetica',Arial,sans-serif;
+    min-height: 100vh; 
+    letter-spacing: 0.01em;
+  }
+  
+  .login-section-wrapper {
+    height: 0px;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    padding: 0px 230px;}
+    @media (max-width: 1000px) {
+      .login-section-wrapper {
+        padding-left: 10px;
+        padding-right: 10px; } }
+    @media (max-width: 400px) {
+      .login-section-wrapper {  
+        padding-top: 20px;
+        padding-bottom: 20px;
+        min-height: 100vh; }}
+  
+  .login-wrapper {
+    width: 900px;
+    max-width: 100%;
+    padding-top: 50px;
+    padding-bottom: 4px; }
+    @media (max-width: 900px) {
+      .login-wrapper {
+        width: 100%; } }
+    .login-wrapper label {
+      font-size: 14px;
+      font-weight: bold;}
+    .login-wrapper .form-control {
+      border: none;
+      border-bottom: 1px;
+      border-radius: 0;
+      padding: 9px 5px;
+      min-height: 40px;
+      font-size: 14px;
+      font-weight: normal; }
+    .login-wrapper .login-btn {
+      padding: 11px 25px;
+      border-radius: 0;
+      font-size: 14px;
+      font-weight: bold;
+      margin-bottom: 14px; }
+    .login-wrapper a.forgot-password-link {
+      font-size: 14px;
+      text-decoration: underline;
+      display: inline-block;
+      margin-bottom: 54px; }
+      @media (max-width: 575px) {
+        .login-wrapper a.forgot-password-link {
+          margin-bottom: 16px; } }
+    .daftarSekarang {
+      font-size: 15px;
+      margin-bottom: 0;
+      padding-left: 400px; 
+      width: 780px;
+    }
+  
+  .login-title {
+    font-size: 25px;
+    margin-bottom: 25px; }
+  
+  .login-img {
+    width: 100%;
+    height: 100vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: left;
+       object-position: left; }
+  
+       .separator {
+        border-top: 1px solid;
+        position: relative;
+        padding-bottom: 25px;
+    }
+  
+    .separator-text {
+      font-size: 13px;
+      display: block;
+      position: absolute;
+      top: -11px;
+      left: 50%;
+      margin-left: -22px;
+      padding: 0px 10px;
+  }
+  
+  .top-content .carousel-indicators li {
+    width: 5px;
+    height: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 50%;
+  }
+  
+  .top-content {
+    width: 125%;
+  }
+  
+  .login-wrapper-under-text {
+    padding-top: 14px;
+    font-size: 13px;
+  }
+  
+  .login-wrapper-footer-forgot-text{
+    font-size: 14px;
+    margin-bottom: 0;
+    padding-left: 385px; 
+    width: 780px;
+    padding-bottom: 13px;
+  }

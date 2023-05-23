@@ -1,0 +1,218 @@
+input .search{
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('https://assets-cdn.shipper.id/bos-web/v1.18.1-alpha2/assets/images/icon-search-grey.svg');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+.col-sm-8 {
+    padding-top:5px;
+}
+
+.col-sm-4 {
+    padding-top:5px;
+}
+
+.col-sm-6 {
+    padding-top: 10px;
+}
+
+.check {
+    padding-left: 70px; 
+}
+
+form {
+    text-align:left;
+}
+
+.upload {
+    text-align:left;
+}
+
+.bantuan {
+    display : flex;
+    flex-flow : row wrap;
+    height : 15%;
+    width : 100%;
+    justify-content:center;
+    padding : 1%;
+    gap : 2%;
+}
+
+.bantuan2 {
+    display : flex;
+    flex-flow : row wrap;
+    height : 15%;
+    width : 100%;
+    justify-content:center;
+    padding : 1%;
+    gap : 2%;
+}
+.col-jasa {
+    display:grid;
+    justify-self:center;
+}
+img {
+    /*padding-top: 10px;*/
+}
+
+p .h6 {
+    padding-top: 2;
+}
+
+.card-img-top {
+    width: 140px;
+    height: 140px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-img-2 {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img .card-img-logo {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wa {
+    padding-left: 20px;
+    text-align:left;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    }
+
+label .lab-1 {
+    padding-top: 5px;
+}
+
+.tabel-tiket {
+    padding-top: 20px;
+}
+li {
+    text-align:left;
+    padding: 5px;
+}
+
+.accordion {
+    margin: auto;
+    width: 100%;
+}
+
+.accordionSide{
+    padding-top: none;
+}
+
+.accordion input {
+    display: none;
+}
+.box {
+    position: relative;
+    background: white;
+    height: 45px;
+    transition: all .15s ease-in-out;
+}
+.box::before {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    pointer-events: none;
+    box-shadow: 0 -1px 0 #e5e5e5,0 0 2px rgba(0,0,0,.12),0 2px 4px rgba(0,0,0,.24);
+}
+header.box {
+    background: #C60751;
+    z-index: 100;
+    cursor: initial;
+}
+header .box-title {
+    font-size: 16pt;
+    color: white;
+    cursor: initial;
+}
+.box-title {
+    height: 45px;
+    line-height: 45px;
+    padding: 0 20px;
+    text-align:left;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.box-content {
+    width: calc(100% - 40px);
+    padding: 30px 20px;
+    font-size: 11pt;
+    color: rgba(0,0,0,.54);
+    display: none;
+}
+.box-close {
+    position: absolute;
+    height: 64px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    display: none;
+}
+input:checked + .box {
+    height: auto;
+    margin: 16px 0;
+}
+input:checked + .box .box-title {
+    border-bottom: 1px solid rgba(0,0,0,.18);
+}
+input:checked + .box .box-content,
+input:checked + .box .box-close {
+    display: inline-block;
+}
+.arrows section .box-title {
+    padding-left: 44px;
+    width: calc(100% - 64px);
+}
+.arrows section .box-title:before {
+    position: absolute;
+    display: block;
+    content: '\203a';
+    font-size: 18pt;
+    left: 20px;
+    top: -2px;
+    transition: transform .15s ease-in-out;
+    color: rgba(0,0,0,.54);
+}
+input:checked + section.box .box-title:before {
+    transform: rotate(90deg);
+}
+
+.up {
+    position: relative;
+    transition: top ease 0.5s;
+    top: 0 ;
+}
+
+.up:hover {
+top: -10px; 
+}

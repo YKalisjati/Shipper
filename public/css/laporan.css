@@ -1,0 +1,60 @@
+body {
+    font-size: .875rem;
+    min-width: 500px;
+  }
+  
+  .feather {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .form-laporan {
+      padding: 50px;
+  }
+  
+  .row {
+      padding: 10px;
+      padding-top: 5px;
+      text-align:left;
+      padding-bottom: 0px;
+      padding-right: 10px;
+      margin: 0px;
+      
+  }
+
+          input[type="date"] {
+              width: 280px;
+              height: 45px;
+              min-width: 130px;
+          }
+
+          input[type="submit"] {
+            width: 280px;
+            height: 45px;
+            min-width: 115px;
+            padding-right: 50px;
+            display: inline-block;
+        }
+  
+          .strip {
+              padding-left: 0px;
+          }
+  
+          .notelap {
+              padding-top: 0px;
+              padding-left: 25px;
+          }
+          .tmpl-laporan {
+              height: 600px;
+              
+          } 
+  
+          .tmpl-laporan {
+              padding-top:150px;
+              height: 600px;
+              
+          }
+
+          label {
+            padding-left: 10px;
+          }

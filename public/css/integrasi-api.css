@@ -1,0 +1,78 @@
+.imgIntegrasiBox{
+    height: auto;
+    width: 100px;
+}
+
+.imgIntegrasi{
+    height: auto;
+    width: 70px;
+}
+
+
+.textIntegrasi{
+    position: absolute;
+    top: 40%;
+    max-width: 50%;
+    min-width: 20%;
+    text-align: left;
+}
+.topStarter{
+    background-color:white;
+    height: 400px;
+}
+
+.botStarter{
+    background-color:  #f2f2f2;
+
+}
+
+.topPremium{
+    height: 400px;
+    background-color:#202020
+}
+
+.botPremium{
+    background-color: black;
+}
+
+.widthCard{
+    width: 500px;
+}
+
+.space-1 {
+    margin-top:70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:30px;
+  }
+
+  .space-2 {
+    margin-top:30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:30px;
+  }
+
+  .marginLR {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .sizeTable{
+    width:450px;
+    margin-left:2px;
+  }
+
+  .profilImg{
+    max-width:100px ;
+  }
+
+  .profilInfo{
+    max-width:400px ;
+  }
+
+  .centerForPlungin{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+

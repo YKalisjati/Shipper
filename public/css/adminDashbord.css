@@ -1,0 +1,58 @@
+.dataTables_filter{
+margin: 10px;
+}
+.tablinks {
+    font-family: Arial;
+    background-color: #fff;
+    border: 0px;
+    font-weight: bold;
+    padding: 11px 9px;
+    font-size: 15px;
+  }
+  
+  .tablinks {
+    font-weight: bold;
+    font-size: 16px;
+    color: #000;
+    position: relative;
+    text-decoration: none;
+    padding-bottom: 8px;
+  }
+  .tablinks:before, .tablinks:after {
+    content: '';
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #F37272;
+  }
+  .tablinks:before {
+    opacity: 0;
+    transform: translateY(-8px);
+    transition: transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s;
+  }
+  .tablinks:after {
+    content: '';
+    position: absolute;
+    opacity: 0;
+    transform: translateY(4px); 
+    transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
+    position: absolute;
+    text-decoration: 1px solid #F37272;
+  }
+  
+  .tab button.active span.bgClr{
+    background-color: #f23b3b;
+    color: white;
+    border-radius: 25px;
+    padding: 5px;
+  }
+  
+  .tablinks:hover:before, a:hover:after, a:focus:before, a:focus:after {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .tablinks:hover:before, a:focus:before {
+    transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
+  }
